@@ -1,4 +1,4 @@
-** ================= Challenge 1 ================= ** 
+================= Challenge 1 =================
 
 In Rails version 3+, sketch out a new blog project with three interrelated models:  
 
@@ -50,7 +50,7 @@ Some considerations:
 
 =================
 
-** ================= Challenge 2 (Pick One) ================= ** 
+================= Challenge 2 (Optional) =================
 
 ** Extending "label" **
 
@@ -61,6 +61,8 @@ So if we have a form for model "Book," a new Book record with an invalid "author
 This can take a bit of repetition to program into many fields and forms, so it's ripe for automation.
 
 One way to do this would be to extend the Rails "label" method to present different styling (say, an 'error' font class) and an appropriate validation message (e.g. "FIELD has too many characters") if the object and field need it.  You could even add an optional flag like ":inline_errors" to only show errors this way on certain forms, or extend it into a separate method altogether, e.g. "label_with_inline_errors."
+
+================= Challenge 3 (Optional) =================
 
 ** Adding "grid()" **
 
