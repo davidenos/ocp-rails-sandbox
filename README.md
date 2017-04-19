@@ -52,7 +52,7 @@ Some considerations:
 
 ================= Challenge 2 (Optional) =================
 
-** Extending "label" **
+####  Extending "label"
 
 When a form entry creates an invalid object, one useful design approach is to show validation errors inside the form's field labels, rather than in a big container above or below the form.
 
@@ -64,7 +64,7 @@ One way to do this would be to extend the Rails "label" method to present differ
 
 ================= Challenge 3 (Optional) =================
 
-** Adding "grid()" **
+####  Adding "grid()" 
 
 Another common front-end task is to display a bunch of records (and their particular visualizations/elements) in a NxM grid.
 
